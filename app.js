@@ -65,7 +65,7 @@ function draw() {
     strokeWeight(tamanhoCara * 0.05);
     let bocaLargura = tamanhoCara * 0.5;
     let bocaAltura = map(level, 0, 0.5, 10, tamanhoCara * 0.4);
-    rect(-23, tamanhoCara * 0.1, bocaLargura, bocaAltura, 7);
+    rect(-23, tamanhoCara * 0.1, bocaLargura, bocaAltura, tamanhoCara);
 
 }
 
